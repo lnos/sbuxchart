@@ -100,12 +100,6 @@ function update(){
   });
 }
 
-// Add a new datum to the set
-d3.select("#add-btn").on("click", function(e){
-  clicked = "Americano";
-	update();
-});
-
 var domReady = function(callback) {
   (document.readyState === "interactive" || document.readyState === "complete") && featured.length != 0 ? callback() : document.addEventListener("DOMContentLoaded", callback);
 };
@@ -113,6 +107,29 @@ var domReady = function(callback) {
 domReady(function() {
   update();
 });
+
+function searchFilter() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("textInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("searchTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+
+function tableClick(value){
+  clicked = value;
+  update();
+}
 
 d3.csv("./drinks.csv", function(data) {
   var table = document.getElementById("searchTable");
@@ -123,7 +140,7 @@ d3.csv("./drinks.csv", function(data) {
         var cell1= row.insertCell(0);
         var cell2 = row.insertCell(1);
         cell1.innerHTML = d.name;
-        cell2.innerHTML = d.caffeine;
+        cell2.innerHTML = d.caffeine + "<button onclick=\"tableClick(\'"+ d.name + "\')\">Add</button>";
         rowNum++;
     }
   }

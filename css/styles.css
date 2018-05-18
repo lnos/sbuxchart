@@ -20,7 +20,7 @@ p#info {
   width: 20px;
   float: left;
   cursor: pointer;
-  }
+}
 
  .bar:last-child {
  	margin-right: 0;
