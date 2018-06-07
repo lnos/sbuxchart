@@ -26,11 +26,6 @@ p#info {
  	margin-right: 0;
 }
 
- button {
-	margin-top: 40px;
- 	cursor: pointer;
- }
-
  #textInput {
 	background-image: url('/css/searchicon.png');
 	background-position: 10px 10px;
@@ -46,12 +41,12 @@ p#info {
 	border-collapse: collapse;
 	width: 100%;
 	border: 1px solid #ddd;
-	font-size: 18px;
+	font-size: 14px;
   }
   
 #searchTable th, #searchTable td {
 	text-align: left;
-	padding: 12px;
+	padding: 10px;
 }
 
 #searchTable tr {

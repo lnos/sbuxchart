@@ -1,18 +1,237 @@
-name,size,milk,whip,serving,calories,totalFat,saturatedFat,transFat,cholestrol,sodium,carbohydrates,dietaryFiber,sugar,protein,vitaminA,vitaminC,calcium,iron,caffeine,category,featured
-Blonde,Grande,N/A,N/A,473 mL,5,0.1,0,0,0,10,0,0,0,1,0%,0%,0%,0%,360,Coffee,TRUE
-Pike,Grande,N/A,N/A,473 mL,5,0.1,0,0,0,10,0,0,0,1,0%,0%,0%,0%,310,Coffee,TRUE
-Dark,Grande,N/A,N/A,473 mL,5,0.1,0,0,0,10,0,0,0,1,0%,0%,0%,0%,260,Coffee,FALSE
-Americano,Grande,N/A,N/A,473 mL,15,0,0,0,0,15,3,0,0,1,0%,0%,2%,0%,225,Espresso,FALSE
-Starbucks Doubleshot,Grande,2%,N/A,473 mL,100,1,1,0.1,5,40,20,0,18,3,4%,0%,8%,0%,225,Espresso,FALSE
-Cold Brew,Grande,N/A,N/A,473 mL,3,0,0,0,0,15,0,0,0,0.2,0%,0%,2%,0%,200,Coffee,TRUE
-Flat White,Grande,2%,N/A,473 mL,180,7,4.5,0.3,30,160,18,0,17,12,20%,2%,40%,0%,195,Espresso,TRUE
-Mocha,Grande,2%,No Whip,473 mL,290,8,5,0.2,25,140,42,4,34,13,15%,2%,35%,35%,175,Espresso,TRUE
-Iced Coffee,Grande,N/A,N/A,473 mL,80,0.1,0,0,0,10,20,0,20,0.3,0%,0%,2%,0%,165,Coffee,FALSE
-Latte,Grande,2%,N/A,473 mL,190,7,4.5,0.3,30,170,19,0,17,12,20%,2%,40%,0%,150,Espresso,FALSE
-Cappuccino,Grande,Soy,N/A,473 mL,100,3.5,0.4,0,0,80,9,1,5,7,8%,0%,25%,10%,150,Espresso,FALSE
-Caramel Macchiato,Grande,2%,N/A,473 mL,250,7,4.5,0.2,25,150,35,0,33,10,20%,2%,30%,0%,150,Espresso,FALSE
-Espresso,Doppio,N/A,N/A,N/A,10,0,0,0,0,0,2,0,0,1,0%,0%,0%,0%,150,Espresso,FALSE
-Chai Tea Latte,Grande,2%,N/A,473 mL,240,4.5,2,0.1,20,115,45,0,42,8,10%,0%,25%,2%,95,Tea,FALSE
-Green Tea Latte,Grande,2%,N/A,473 mL,240,7,4.5,0.3,25,160,34,1,32,12,20%,15%,40%,4%,80,Tea,FALSE
-Decaf,Grande,N/A,N/A,473 mL,5,0.1,0,0,0,10,0,0,0,1,0%,0%,0%,0%,25,Coffee,FALSE
-Iced Black Tea,Grande,N/A,N/A,473 mL,80,0,0,0,0,10,20,0,20,0,0%,0%,0%,0%,25,Tea,FALSE
+name,size,caffeine,category,featured
+Blonde Roast,Venti,475,Coffee,FALSE
+Medium Roast,Venti,410,Coffee,FALSE
+Starbucks Doubleshot,Venti,375,Espresso,FALSE
+Blonde Roast,Grande,360,Coffee,TRUE
+Dark Roast,Venti,340,Coffee,FALSE
+Cold Brewed Coffee,Trenta,330,Coffee,FALSE
+Medium Roast,Grande,310,Coffee,TRUE
+Cold Brewed Coffee,Venti,300,Coffee,FALSE
+Americano,Venti,300,Espresso,FALSE
+Espresso,Quad,300,Espresso,FALSE
+Espresso Con Panna,Quad,300,Espresso,FALSE
+Espresso Macchiato,Quad,300,Espresso,FALSE
+Iced Coffee,Trenta,280,Coffee,FALSE
+Blonde Roast,Tall,270,Coffee,FALSE
+Dark Roast,Grande,260,Coffee,TRUE
+Medium Roast,Tall,235,Coffee,FALSE
+Iced Coffee,Venti,235,Coffee,FALSE
+Americano,Grande,225,Espresso,FALSE
+Espresso,Triple,225,Espresso,FALSE
+Espresso Con Panna,Triple,225,Espresso,FALSE
+Espresso Macchiato,Triple,225,Espresso,FALSE
+Latte Macchiato,Grande,225,Espresso,FALSE
+Latte Macchiato,Venti,225,Espresso,FALSE
+Starbucks Doubleshot,Grande,225,Espresso,FALSE
+Iced Coffee with Milk,Venti,205,Coffee,FALSE
+Cold Brewed Coffee,Grande,200,Coffee,FALSE
+Caffe Misto,Venti,195,Coffee,FALSE
+Flat White,Grande,195,Espresso,FALSE
+Flat White,Venti,195,Espresso,FALSE
+Dark Roast,Tall,193,Coffee,FALSE
+Iced Coffee with Milk,Trenta,190,Coffee,FALSE
+Mocha,Venti,185,Espresso,FALSE
+Espresso Frappuccino,Venti,185,Frappuccino Blended Coffee,FALSE
+Blonde Roast,Short,180,Coffee,FALSE
+Mocha,Grande,175,Espresso,FALSE
+Iced Coffee with Milk,Venti,170,Coffee,FALSE
+Iced Coffee,Grande,165,Coffee,FALSE
+Espresso Frappuccino,Grande,165,Frappuccino Blended Coffee,FALSE
+Medium Roast,Short,155,Coffee,FALSE
+Caffe Misto,Grande,150,Coffee,FALSE
+Iced Coffee with Milk,Grande,150,Coffee,FALSE
+Cold Brewed Coffee,Tall,150,Coffee,FALSE
+Americano,Tall,150,Espresso,FALSE
+Latte,Grande,150,Espresso,TRUE
+Latte,Venti,150,Espresso,FALSE
+Cappuccino,Grande,150,Espresso,FALSE
+Cappuccino,Venti,150,Espresso,FALSE
+Caramel Macchiato,Grande,150,Espresso,FALSE
+Caramel Macchiato,Venti,150,Espresso,FALSE
+Cinnamon Dolce Latte,Grande,150,Espresso,FALSE
+Cinnamon Dolce Latte,Venti,150,Espresso,FALSE
+Espresso,Doppio,150,Espresso,FALSE
+Espresso Con Panna,Doppio,150,Espresso,FALSE
+Espresso Macchiato,Doppio,150,Espresso,FALSE
+Latte Macchiato,Short,150,Espresso,FALSE
+Latte Macchiato,Tall,150,Espresso,FALSE
+Skinny Mocha,Grande,150,Espresso,FALSE
+Skinny Mocha,Venti,150,Espresso,FALSE
+Starbucks Doubleshot,Tall,150,Espresso,FALSE
+White Mocha,Grande,150,Espresso,FALSE
+White Mocha,Venti,150,Espresso,FALSE
+Java Chip Frappuccino,Venti,145,Frappuccino Blended Coffee,FALSE
+Mocha Frappuccino,Venti,140,Frappuccino Blended Coffee,FALSE
+Dark Roast,Short,130,Coffee,FALSE
+Flat White,Short,130,Espresso,FALSE
+Flat White,Tall,130,Espresso,FALSE
+Caramel Frappuccino,Venti,130,Frappuccino Blended Coffee,FALSE
+Coffee Frappuccino,Venti,130,Frappuccino Blended Coffee,FALSE
+Espresso Frappuccino,Tall,130,Frappuccino Blended Coffee,FALSE
+Iced Coffee with Milk,Grande,125,Coffee,FALSE
+Iced Coffee,Tall,120,Coffee,FALSE
+Chai Tea Latte,Venti,120,Tea,FALSE
+Caffe Misto,Tall,115,Coffee,FALSE
+Iced Coffee with Milk,Tall,110,Coffee,FALSE
+Green Tea Latte,Venti,110,Tea,FALSE
+Iced Green Tea Latte,Venti,110,Tea,FALSE
+Cool Lime Refresher,Trenta,110,Starbucks Refreshers,FALSE
+Very Berry Hibiscus,Trenta,110,Starbucks Refreshers,FALSE
+Java Chip Frappuccino,Grande,110,Frappuccino Blended Coffee,FALSE
+Mocha Frappuccino,Grande,110,Frappuccino Blended Coffee,FALSE
+Caramel Frappuccino,Grande,100,Frappuccino Blended Coffee,FALSE
+Mocha,Tall,95,Espresso,FALSE
+Chai Tea Latte,Grande,95,Tea,FALSE
+Coffee Frappuccino,Grande,95,Frappuccino Blended Coffee,FALSE
+Green Tea Frappuccino,Venti,95,Frappucino Blended Creme,FALSE
+Iced Coffee with Milk,Tall,90,Coffee,FALSE
+Mocha,Short,90,Espresso,FALSE
+Cool Lime,Venti,85,Starbucks Refreshers,FALSE
+Very Berry Hibiscus,Venti,85,Starbucks Refreshers,FALSE
+Green Tea Latte,Grande,80,Tea,FALSE
+Iced Green Tea Latte,Grande,80,Tea,FALSE
+Caffe Misto,Short,75,Coffee,FALSE
+Americano,Short,75,Espresso,FALSE
+Latte,Short,75,Espresso,FALSE
+Latte,Tall,75,Espresso,FALSE
+Cappuccino,Short,75,Espresso,FALSE
+Cappuccino,Tall,75,Espresso,FALSE
+Caramel Macchiato,Short,75,Espresso,FALSE
+Caramel Macchiato,Tall,75,Espresso,FALSE
+Cinnamon Dolce Latte,Short,75,Espresso,FALSE
+Cinnamon Dolce Latte,Tall,75,Espresso,FALSE
+Espresso,Solo,75,Espresso,FALSE
+Espresso Con Panna,Solo,75,Espresso,FALSE
+Espresso Macchiato,Solo,75,Espresso,FALSE
+Skinny Mocha,Short,75,Espresso,FALSE
+Skinny Mocha,Tall,75,Espresso,FALSE
+White Mocha,Short,75,Espresso,FALSE
+White Mocha,Tall,75,Espresso,FALSE
+Java Chip Frappuccino,Tall,75,Frappuccino Blended Coffee,FALSE
+Mocha Frappuccino,Tall,75,Frappuccino Blended Coffee,FALSE
+Chai Tea Latte,Tall,70,Tea,FALSE
+Caramel Frappuccino,Tall,70,Frappuccino Blended Coffee,FALSE
+Coffee Frappuccino,Tall,70,Frappuccino Blended Coffee,FALSE
+Green Tea Frappuccino,Grande,70,Frappucino Blended Creme,FALSE
+Green Tea Latte,Tall,55,Tea,FALSE
+Iced Green Tea Latte,Tall,55,Tea,FALSE
+Iced Green Tea,Trenta,55,Tea,FALSE
+Iced Mango Black Tea,Trenta,55,Tea,FALSE
+Peach Iced Green Tea,Trenta,55,Tea,FALSE
+Cool Lime,Grande,55,Starbucks Refreshers,TRUE
+Very Berry Hibiscus,Grande,55,Starbucks Refreshers,FALSE
+Iced Black Tea,Trenta,50,Tea,FALSE
+Chai Tea Latte,Short,50,Tea,FALSE
+Green Tea Frappuccino,Tall,50,Frappucino Blended Creme,FALSE
+Iced Green Tea,Venti,45,Tea,FALSE
+Iced Mango Black Tea,Venti,45,Tea,FALSE
+Peach Iced Green Tea,Venti,45,Tea,FALSE
+Cool Lime,Tall,45,Starbucks Refreshers,FALSE
+Very Berry Hibiscus,Tall,45,Starbucks Refreshers,FALSE
+Iced Black Tea,Venti,40,Tea,FALSE
+Earl Grey Brewed Tea,Short,40,Tea,FALSE
+Earl Grey Brewed Tea,Tall,40,Tea,FALSE
+Earl Grey Brewed Tea,Grande,40,Tea,FALSE
+Earl Grey Brewed Tea,Venti,40,Tea,FALSE
+English Breakfast Tea,Short,40,Tea,FALSE
+English Breakfast Tea,Tall,40,Tea,FALSE
+English Breakfast Tea,Grande,40,Tea,FALSE
+English Breakfast Tea,Venti,40,Tea,FALSE
+English Breakfast Tea Latte,Short,40,Tea,FALSE
+English Breakfast Tea Latte,Tall,40,Tea,FALSE
+English Breakfast Tea Latte,Grande,40,Tea,FALSE
+English Breakfast Tea Latte,Venti,40,Tea,FALSE
+Jade Citrus Mint,Grande,40,Tea,FALSE
+Jade Citrus Mint,Venti,40,Tea,FALSE
+London Fog Tea Latte,Short,40,Tea,FALSE
+London Fog Tea Latte,Tall,40,Tea,FALSE
+London Fog Tea Latte,Grande,40,Tea,FALSE
+London Fog Tea Latte,Venti,40,Tea,FALSE
+Chai Creme Frappuccino,Grande,40,Frappucino Blended Creme,FALSE
+Chai Creme Frappuccino,Venti,40,Frappucino Blended Creme,FALSE
+Hot Chocolate,Venti,35,Other,FALSE
+Decaf Pike,Venti,30,Coffee,FALSE
+Green Tea Latte,Short,30,Tea,FALSE
+Iced Green Tea,Grande,30,Tea,FALSE
+Iced Mango Black Tea,Grande,30,Tea,FALSE
+Peach Iced Green Tea,Grande,30,Tea,FALSE
+Hot Chocolate,Grande,30,Other,FALSE
+Decaf Pike,Grande,25,Coffee,TRUE
+Iced Black Tea,Tall,25,Tea,FALSE
+Iced Black Tea,Grande,25,Tea,FALSE
+Emperor's Clouds Tea,Grande,25,Tea,FALSE
+Emperor's Clouds Tea,Venti,25,Tea,FALSE
+Iced Green Tea,Tall,25,Tea,FALSE
+Jade Citrus Mint,Short,25,Tea,FALSE
+Jade Citrus Mint,Tall,25,Tea,FALSE
+Iced Mango Black Tea,Tall,25,Tea,FALSE
+Peach Iced Green Tea,Tall,25,Tea,FALSE
+Youthberry Brewed Tea,Grande,25,Tea,FALSE
+Youthberry Brewed Tea,Venti,25,Tea,FALSE
+Hot Chocolate,Grande,25,Other,FALSE
+Decaf Pike,Tall,20,Coffee,FALSE
+Chocolate Smoothie,Grande,20,Smoothies,FALSE
+Chai Creme Frappuccino,Tall,20,Frappucino Blended Creme,FALSE
+Hot Chocolate,Tall,20,Other,FALSE
+Decaf Pike,Short,15,Coffee,FALSE
+Emperor's Clouds Tea,Short,15,Tea,FALSE
+Emperor's Clouds Tea,Tall,15,Tea,FALSE
+Youthberry Brewed Tea,Short,15,Tea,FALSE
+Youthberry Brewed Tea,Tall,15,Tea,FALSE
+Hot Chocolate,Short,15,Other,FALSE
+Mint Majesty Brewed Tea,Short,0,Tea,FALSE
+Mint Majesty Brewed Tea,Tall,0,Tea,FALSE
+Mint Majesty Brewed Tea,Grande,0,Tea,FALSE
+Mint Majesty Brewed Tea,Venti,0,Tea,FALSE
+Chai Tea,Short,0,Tea,FALSE
+Chai Tea,Tall,0,Tea,FALSE
+Chai Tea,Grande,0,Tea,FALSE
+Chai Tea,Venti,0,Tea,FALSE
+Passion Tango Brewed Tea,Short,0,Tea,FALSE
+Passion Tango Brewed Tea,Tall,0,Tea,FALSE
+Passion Tango Brewed Tea,Grande,0,Tea,FALSE
+Passion Tango Brewed Tea,Venti,0,Tea,FALSE
+Iced Passion Tango tea,Tall,0,Tea,FALSE
+Iced Passion Tango tea,Grande,0,Tea,FALSE
+Iced Passion Tango tea,Venti,0,Tea,FALSE
+Iced Passion Tango tea,Trenta,0,Tea,FALSE
+Peach Tranquility Tea,Short,0,Tea,FALSE
+Peach Tranquility Tea,Tall,0,Tea,FALSE
+Peach Tranquility Tea,Grande,0,Tea,FALSE
+Peach Tranquility Tea,Venti,0,Tea,FALSE
+Orange Mango Smoothie,Grande,0,Smoothies,FALSE
+Strawberry Smoothie,Grande,0,Smoothies,FALSE
+Vanilla Bean Frappuccino,Tall,0,Frappucino Blended Creme,FALSE
+Vanilla Bean Frappuccino,Grande,0,Frappucino Blended Creme,FALSE
+Vanilla Bean Frappuccino,Venti,0,Frappucino Blended Creme,FALSE
+Caramel Apple Spice,Short,0,Other,FALSE
+Caramel Apple Spice,Tall,0,Other,FALSE
+Caramel Apple Spice,Grande,0,Other,FALSE
+Caramel Apple Spice,Venti,0,Other,FALSE
+Lemonade,Tall,0,Other,FALSE
+Lemonade,Grande,0,Other,FALSE
+Lemonade,Venti,0,Other,FALSE
+Lemonade,Trenta,0,Other,FALSE
+Milk,Tall,0,Other,FALSE
+Milk,Grande,0,Other,FALSE
+Milk,Venti,0,Other,FALSE
+Skinny Hot Chocolate,Short,0,Other,FALSE
+Skinny Hot Chocolate,Tall,0,Other,FALSE
+Skinny Hot Chocolate,Grande,0,Other,FALSE
+Skinny Hot Chocolate,Venti,0,Other,FALSE
+Steamed Apple Juice,Short,0,Other,FALSE
+Steamed Apple Juice,Tall,0,Other,FALSE
+Steamed Apple Juice,Grande,0,Other,FALSE
+Steamed Apple Juice,Venti,0,Other,FALSE
+Steamed Milk,Short,0,Other,FALSE
+Steamed Milk,Tall,0,Other,FALSE
+Steamed Milk,Grande,0,Other,FALSE
+Steamed Milk,Venti,0,Other,FALSE
+Vanilla Steamer,Short,0,Other,FALSE
+Vanilla Steamer,Tall,0,Other,FALSE
+Vanilla Steamer,Grande,0,Other,FALSE
+Vanilla Steamer,Venti,0,Other,FALSE
+White Hot Chocolate,Short,0,Other,FALSE
+White Hot Chocolate,Tall,0,Other,FALSE
+White Hot Chocolate,Grande,0,Other,FALSE
+White Hot Chocolate,Venti,0,Other,FALSE

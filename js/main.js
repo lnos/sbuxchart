@@ -1,21 +1,3 @@
-/**
- * TODO:
- * - Axis - > name on x-axis, caffeine content on y-axis
- * - Incorporate Starbucks Data
- * - Allow user to search for drinks and add data
- **/
-
-// //Initializing / Loading Data
-// var featured = [];
-
-// d3.csv("./drinks.csv", function(data) {
-//   data.forEach(function(d){
-//     if(d.featured == "TRUE"){
-//       featured.push(d); 
-//     }
-//   }
-// )});
-
 var margin = {top: 5, right: 5, bottom: 20, left: 20};
 var fullWidth = 400;
 var fullHeight = 200;
@@ -34,7 +16,7 @@ var svg = d3.select('#holder').append('svg')
 var xScale = d3.scaleBand()
   .range([0, width])
   .padding(0.1);
-
+ 
 var x_axis = d3.axisBottom()
               .scale(xScale);
 
@@ -92,6 +74,7 @@ function update(){
    
     svg.append("g")
         .attr("transform", "translate(10," + height +")")
+        .style("font-size", "6px")
         .call(x_axis);
 
     svg.append("g")
