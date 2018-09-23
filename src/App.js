@@ -10,16 +10,23 @@ class App extends Component {
         x: "x",
         columns: [
         ["x", "Dark Roast", "Pike Roast", "Blond Roast", "Cold Brew", "Americano", "Latte"],
-        ["Tall", 193, 235, 270, 400, 150, 75],
+        ["Tall", 193, 235, 270, 150, 150, 75],
        ["Grande", 260, 310, 360, 200, 225, 150],
         ["Venti", 340, 410, 475, 300, 300, 150]
         ],
-
+        colors: {
+          Tall: "#F8E5D6",
+          Grande: "	#D19E91",
+          Venti: "	#442220"
+        },
         type: "bar"
       },
       axis:{
         x: {
           type: "category"
+        },
+        y: {
+          label: "Caffeine(mg)"
         }
       },
       bar: {
@@ -35,7 +42,6 @@ class App extends Component {
     return (
       <div className="App">
         <div id="chart"></div>
-        <input type="text" id="textInput" onkeyup="searchFilter()" placeholder="Search for drinks"></input>
       </div>
     );
   }
