@@ -11,7 +11,7 @@ Simply
 npm start
 ```
 
-### Todo
+### Ideas
 * Interactively searching/adding drinks
 * Deploy demo
 
