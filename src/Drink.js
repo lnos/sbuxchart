@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 
 class Drink extends Component{
     
+    constructor(props) {
+        super(props);
+        this.onClick = this.onClick.bind(this);
+      }
+    
+      onClick(e) {
+        this.props.update(this.props.data.id);
+      }
+
     render(){
 
         const imageClick = () => {
@@ -10,10 +19,11 @@ class Drink extends Component{
 
         return(
             <div>
-                <a href="#">
-                    <img className="thumbnail" src='./img/LM.jpg' alt="" onClick={() => imageClick()}/>
-                    <p>{this.props.name}</p>    
-                </a>          
+                <button>
+                   <img className="thumbnail" src='./img/LM.jpg' alt="" onClick={() => imageClick()}/>
+                    <p>{this.props.name}</p>        
+                </button>
+
             </div>
         );
     }
