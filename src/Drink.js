@@ -4,26 +4,20 @@ class Drink extends Component{
     
     constructor(props) {
         super(props);
-        this.onClick = this.onClick.bind(this);
+        this.onChange = this.onChange.bind(this);
       }
     
-      onClick(e) {
-        this.props.update(this.props.data.id);
+      onChange(e) {
+        this.props.onChange(this.props.name);
       }
 
     render(){
-
-        const imageClick = () => {
-            console.log('Click');
-          } 
-
         return(
             <div>
                 <button>
-                   <img className="thumbnail" src='./img/LM.jpg' alt="" onClick={() => imageClick()}/>
+                   <img className="thumbnail" src={this.props.src} alt="" onClick={this.onChange}/>
                     <p>{this.props.name}</p>        
                 </button>
-
             </div>
         );
     }
