@@ -12,6 +12,12 @@ class Drinks extends Component{
         var CaramelMacchiato = {name: 'Caramel macchiato', src: './img/CM.jpg', caffeine: [75,150,150]};
         var CoffeeFrapuccino = {name: 'Coffee Frapuccino', src: './img/CF.jpg', caffeine: [70,95,130]};
         var FlatWhite = {name: 'Flat White', src: './img/FW.jpg', caffeine: [130,195,195]};
+        var HotChocolate = {name: 'Hot Chocolate', src: './img/HC.jpg', caffeine: [25,30,35]};
+        var GreenTeaLatte = {name: 'Green Tea Latte', src: './img/GTLT.jpg', caffeine: [55,80,110]};
+        var ChaiTeaLatte = {name: 'Chai Tea Latte', src: './img/CH.jpg', caffeine: [70,95,120]};
+        var StarbucksRefresher = {name: 'Starbucks Refresher', src: './img/MDR.jpg', caffeine: [45,55,85]};
+        var IcedBlackTea = {name: 'Iced Black Tea', src: './img/BT.jpg', caffeine: [25,30,40]};
+        var IcedPassionTea = {name: 'Iced Passion Tea', src: './img/PT.jpg', caffeine: [0,0,0]};
       }
 
     handleClick(name){
