@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Drink.css';
 
 class Drink extends Component{
     
@@ -13,8 +14,8 @@ class Drink extends Component{
 
     render(){
         return(
-            <div>
-                <button>
+            <div className="drink">
+                <button className="drinkButton">
                    <img className="thumbnail" src={this.props.src} alt="" onClick={this.onChange}/>
                     <p>{this.props.name}</p>        
                 </button>

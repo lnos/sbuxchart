@@ -40,13 +40,13 @@
         "caffeine": [45,55,75]
     },
     {
-        "name": "Iced Black Tea",
-        "src": "./img/BT.jpg",
-        "caffeine": [25,30,40]
+        "name": "Iced Cofee",
+        "src": "./img/IC.jpg",
+        "caffeine": [120,165,235]
     },
     {
-        "name": "Iced Passion Tea",
-        "src": "./img/PT.jpg",
-        "caffeine": [0,0,0]
+        "name": "Starbucks Doubleshot",
+        "src": "./img/SD.jpg",
+        "caffeine": [150,225,375]
     }
 ]

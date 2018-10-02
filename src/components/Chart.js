@@ -8,10 +8,10 @@ class Chart extends Component {
       data: {
         x: "x",
         columns: [
-        ["x", "Dark Roast", "Pike Roast", "Blond Roast", "Cold Brew", "Americano", "Latte", "Refreshers"],
-        ["Tall", 193, 235, 270, 150, 150, 75, 45],
-       ["Grande", 260, 310, 360, 200, 225, 150, 55],
-        ["Venti", 340, 410, 475, 300, 300, 150, 85]
+        ["x", "Dark Roast", "Pike Roast", "Blond Roast", "Cold Brew", "Americano", "Latte"],
+        ["Tall", 193, 235, 270, 150, 150, 75],
+       ["Grande", 260, 310, 360, 200, 225, 150],
+        ["Venti", 340, 410, 475, 300, 300, 150]
         ],
         colors: {
           Tall: "#F8E5D6",

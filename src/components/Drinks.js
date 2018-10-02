@@ -23,6 +23,7 @@ class Drinks extends Component{
               <Drink
                 name ={DrinksData[i].name}
                 src={DrinksData[i].src}
+                onChange={this.handleClick}
             />
             );
           }
@@ -31,8 +32,6 @@ class Drinks extends Component{
     }
 
     render(){
-
-        var drinkComponents = this.createDrinkComponents();
 
         return(
             <div className="drinks-contents">
