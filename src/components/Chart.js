@@ -3,8 +3,12 @@ import bb from "billboard.js";
 
 class Chart extends Component {
 
+  constructor(props){
+    super(props);
+  }
+
   componentDidMount(){
-    bb.generate({
+    var chart = bb.generate({
       data: {
         x: "x",
         columns: [
@@ -35,6 +39,11 @@ class Chart extends Component {
       },
       bindto: "#chart"
     });
+    chart.load({
+      rows: [
+        ["data4", 30, 20, 50, 40, 60, 50, 100, 200]
+      ]
+    })
   }
 
   render() {
