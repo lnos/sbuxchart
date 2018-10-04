@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
 import bb from "billboard.js";
+import './Chart.css';
 
 class Chart extends Component {
 
-  constructor(props){
-    super(props);
-  }
-
   componentDidMount(){
-    var chart = bb.generate({
+    bb.generate({
       data: {
         x: "x",
         columns: [
-        ["x", "Dark Roast", "Pike Roast", "Blond Roast", "Cold Brew", "Americano", "Latte"],
-        ["Tall", 193, 235, 270, 150, 150, 75],
-       ["Grande", 260, 310, 360, 200, 225, 150],
-        ["Venti", 340, 410, 475, 300, 300, 150]
+        ["x", "Dark Roast", "Pike Roast", "Blond Roast", "Cold Brew", "Americano", "Latte/Caramel Macchiato", "Coffee Frapuccino", "Flat White", "Green Tea Latte", "Chai Tea Latte", "Starbucks Refresher", "Iced Coffee", "Starbucks Doubleshot"],
+        ["Tall", 193, 235, 270, 150, 150, 75, 70, 130, 55, 70, 45, 120, 150],
+       ["Grande", 260, 310, 360, 200, 225, 150, 95, 195, 80, 95, 55, 165 ,225],
+        ["Venti", 340, 410, 475, 300, 300, 150, 130, 195, 110, 120,75, 235, 375]
         ],
         colors: {
           Tall: "#F8E5D6",
@@ -32,6 +29,9 @@ class Chart extends Component {
           label: "Caffeine(mg)"
         }
       },
+      legend: {
+        position: "right"
+      },
       bar: {
         width: {
           ratio: 0.5
@@ -39,16 +39,12 @@ class Chart extends Component {
       },
       bindto: "#chart"
     });
-    chart.load({
-      rows: [
-        ["data4", 30, 20, 50, 40, 60, 50, 100, 200]
-      ]
-    })
   }
 
   render() {
     return (
-        <div id="chart"></div>
+        <div id="chart">
+        </div>
     );
   }
 }

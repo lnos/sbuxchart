@@ -11,8 +11,8 @@ Simply
 npm start
 ```
 
-### Ideas
-* Interactively searching/adding drinks
+### TODO
+* Add mobile css
 * Deploy demo
 
 ### License
