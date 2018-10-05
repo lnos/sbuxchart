@@ -23,7 +23,8 @@ class Chart extends Component {
       },
       axis:{
         x: {
-          type: "category"
+          type: "category",
+          height: 100
         },
         y: {
           label: "Caffeine(mg)"
