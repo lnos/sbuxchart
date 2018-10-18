@@ -6,14 +6,21 @@ Data is obtained from [here](https://www.starbucks.ca/menu/nutrition-info)
 
 ### Installing
 
-Simply
+Clone the repo then
+
 ```
 npm start
 ```
 
-### TODO
-* Add mobile css
-* Deploy demo
+### Demo
+
+[Link](https://sbuxchart.netlify.com)
+
+### Todo
+
+- Better styling
+
+- Migrate to my site after [issue](https://stackoverflow.com/questions/49111086/webpack-4-universal-library-target) with webpack is fixed.
 
 ### License
 
